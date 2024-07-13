@@ -3,7 +3,11 @@ import pandas as pd
 import joblib
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
+import nltk
+import os
 
+if 'DYNO' in os.environ:
+    nltk.download('stopwords')
 
 filename = 'nlp_model.pkl'
 clf = joblib.load(filename)
