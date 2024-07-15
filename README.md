@@ -1,5 +1,9 @@
 # NLP Model for Spam Detection with Deployment on Heroku
 
+## Website link
+https://nlpproject-064df6be8c12.herokuapp.com/
+
+
 ## Description
 This project focuses on building and deploying a Natural Language Processing (NLP) model to detect spam messages. The main objective is to classify messages as spam or not spam using machine learning techniques. The model is built using Python and leverages various libraries and tools to preprocess the data, train the model, and deploy the application on Heroku.
 
